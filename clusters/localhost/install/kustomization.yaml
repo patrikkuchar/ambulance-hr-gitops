@@ -10,3 +10,6 @@ commonLabels:
 
 resources:
   - ../../../apps/xkucharp-ambulance-hr-ufe
+
+components:
+  - ../../../components/version-developers
