@@ -15,7 +15,7 @@ spec:
         pod: xkucharp-ambulance-hr-ufe-label    # štítky podu
     spec:
       containers:
-        - name: ambulance-ufe-container # meno kontaineru - v pod-e ich môže byť viac
+        - name: ambulance-hr-ufe-container # meno kontaineru - v pod-e ich môže byť viac
           image: patrikkuchar/ambulance-hr-ufe
           imagePullPolicy: Always
           
