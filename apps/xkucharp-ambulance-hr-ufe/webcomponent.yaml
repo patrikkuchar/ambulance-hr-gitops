@@ -7,9 +7,9 @@ spec:
     # module web komponentu pre tento mikroFE
   # - umiestnený v namespace wac-hospital
   navigation:
-    - element: xkucharp-ambulance-hr-wl-list    # element, ktorý bude vložený na stránku
+    - element: xkucharp-ambulance-app    # element, ktorý bude vložený na stránku
       # pri navigácii na zoznam čakajúcich
-      path: xkucharp-ambulance-hr-wl      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+      path: xkucharp-ambulance-hr      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Zoznam zamestnancov ambulancie xkucharp      # názov mikro aplikácie
       details: Spravuje zoznam zamestnancov ambulancie
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
